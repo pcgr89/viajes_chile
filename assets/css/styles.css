@@ -1,0 +1,55 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    
+}
+
+.navbar.solid {
+    background-color: #00a6bb;
+    transition: background-color 0.5s ease 0s;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+nav img {
+    height: 2rem;
+    padding-right: 0.5rem;
+}
+
+.carousel {
+    height: 20rem;
+    overflow: hidden;
+}
+
+.carousel img {
+    object-fit: cover;
+    background-position: center;
+}
+
+hr {
+    background-color: #00a6bb;
+    height: 2px;
+}
+/* .subtitles {
+
+} */
+
+.quienes-somos-icon, footer {
+    background-color: #00a6bb;
+}
+
+.card {
+    background-color: #00a6bb;
+    overflow: hidden;
+}
+
+.card {
+    border: #fff 1px solid;
+}
+
+.card img {
+    height: 9rem;
+    object-fit: cover;
+}
