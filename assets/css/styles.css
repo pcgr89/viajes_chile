@@ -9,7 +9,7 @@ body {
 
 .navbar.solid {
     background-color: #00a6bb;
-    transition: background-color 0.5s ease 0s;
+    transition: background-color 0.3s ease 0s;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -18,23 +18,15 @@ nav img {
     padding-right: 0.5rem;
 }
 
-.carousel {
-    height: 20rem;
-    overflow: hidden;
-}
-
-.carousel img {
-    object-fit: cover;
-    background-position: center;
-}
-
 hr {
     background-color: #00a6bb;
     height: 2px;
 }
-/* .subtitles {
 
-} */
+.carousel .carousel-item {
+    max-height: 100vh;
+    min-width: auto;
+  }
 
 .quienes-somos-icon, footer {
     background-color: #00a6bb;
@@ -43,9 +35,6 @@ hr {
 .card {
     background-color: #00a6bb;
     overflow: hidden;
-}
-
-.card {
     border: #fff 1px solid;
 }
 
@@ -53,3 +42,33 @@ hr {
     height: 9rem;
     object-fit: cover;
 }
+
+
+.tooltip-inner {
+    background-color: #00a6bb !important;
+    color: #fff ;
+  }
+  .bs-tooltip-top .arrow::before, .bs-tooltip-auto[x-placement^="top"] .arrow::before {
+    border-top-color: #00a6bb !important;
+  }
+  
+  .bs-tooltip-right .arrow::before, .bs-tooltip-auto[x-placement^="right"] .arrow::before {
+    border-right-color: #00a6bb !important;
+  }
+  
+  
+  .bs-tooltip-bottom .arrow::before, .bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
+    border-bottom-color: #00a6bb !important;
+  }
+  
+  
+  .bs-tooltip-left .arrow::before, .bs-tooltip-auto[x-placement^="left"] .arrow::before {
+    border-left-color: #00a6bb !important;
+  }
+
+  .modal-body {
+      overflow: hidden;
+  }
+  .modal-body img {
+      width: 100%;
+  }
