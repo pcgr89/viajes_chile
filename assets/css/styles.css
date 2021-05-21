@@ -7,6 +7,7 @@ body {
     
 }
 
+/* NAVBAR */
 .navbar.solid {
     background-color: #00a6bb;
     transition: background-color 0.3s ease 0s;
@@ -23,15 +24,18 @@ hr {
     height: 2px;
 }
 
+/* CAROUSEL */
 .carousel .carousel-item {
     max-height: 100vh;
     min-width: auto;
   }
 
+/* QUIENES SOMOS */ 
 .quienes-somos-icon, footer {
     background-color: #00a6bb;
 }
 
+/* DESTACADOS */ 
 .card {
     background-color: #00a6bb;
     overflow: hidden;
@@ -43,11 +47,12 @@ hr {
     object-fit: cover;
 }
 
-
+/* TOOLTIPS */ 
 .tooltip-inner {
     background-color: #00a6bb !important;
     color: #fff ;
   }
+
   .bs-tooltip-top .arrow::before, .bs-tooltip-auto[x-placement^="top"] .arrow::before {
     border-top-color: #00a6bb !important;
   }
@@ -56,16 +61,15 @@ hr {
     border-right-color: #00a6bb !important;
   }
   
-  
   .bs-tooltip-bottom .arrow::before, .bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
     border-bottom-color: #00a6bb !important;
   }
-  
   
   .bs-tooltip-left .arrow::before, .bs-tooltip-auto[x-placement^="left"] .arrow::before {
     border-left-color: #00a6bb !important;
   }
 
+ /* MODALES  */  
   .modal-body {
       overflow: hidden;
   }
